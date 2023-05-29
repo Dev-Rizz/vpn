@@ -25,11 +25,11 @@ exit 0
 fi
 clear
 apt install jq curl -y
-DOMAIN=pakya-vpn.ovh
+DOMAIN=systemcloud.tech
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.pakya-vpn.ovh
-CF_ID=alifmelorcoc@gmail.com
-CF_KEY=3a6ec62bf385082f3b806a01aae65edb15691
+SUB_DOMAIN=${sub}.systemcloud.tech
+CF_ID=rizkyadhypratama@gmail.com
+CF_KEY=215ce4c3a698a641da9bb6077519faec07657
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
